@@ -1,0 +1,222 @@
+(footprint "JST_ZH_B6B-ZR_1x06_P1.50mm_Vertical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "JST ZH series connector, B6B-ZR, top entry, drawn from https://www.jst-mfg.com/product/pdf/eng/eZH.pdf (not in the stock KiCad library)")
+	(tags "connector JST ZH top entry")
+	(property "Reference" "REF**"
+		(at 3.75 -3 0)
+		(layer "F.SilkS")
+		(uuid "d751bf0d-02ad-4303-8734-a6fb9256845d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "JST_ZH_B6B-ZR_1x06_P1.50mm_Vertical"
+		(at 3.75 3.7 0)
+		(layer "F.Fab")
+		(uuid "f6537b93-3fb7-4da2-9d05-d200bd513b30")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.5 -1.3)
+		(end 9 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4937ca20-ed63-4451-83d1-4fa3dade209e")
+	)
+	(fp_line
+		(start 9 -1.3)
+		(end 9 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1e94b53f-e3f0-427d-82d7-576ba8306330")
+	)
+	(fp_line
+		(start 9 2.2)
+		(end -1.5 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "90d02a59-11fb-4ddd-82ac-cba0d274841b")
+	)
+	(fp_line
+		(start -1.5 2.2)
+		(end -1.5 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c1ec7906-b31f-41d9-8ffc-010f5a4388e5")
+	)
+	(fp_line
+		(start -1.61 -1.41)
+		(end 9.11 -1.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a9c3b741-7392-48d8-94fd-d05086dd3789")
+	)
+	(fp_line
+		(start 9.11 -1.41)
+		(end 9.11 2.31)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b3e9cd6-c2bc-4682-a6ce-2ec6549c4557")
+	)
+	(fp_line
+		(start 9.11 2.31)
+		(end -1.61 2.31)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e490a632-32c1-42d8-b593-6c00c9578251")
+	)
+	(fp_line
+		(start -1.61 2.31)
+		(end -1.61 -1.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ba662f57-0a5c-43a3-bd21-b5b0d9aea0c8")
+	)
+	(fp_line
+		(start -2 -2.25)
+		(end 9.5 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7b21081f-cab4-4315-9a02-96e89893439d")
+	)
+	(fp_line
+		(start 9.5 -2.25)
+		(end 9.5 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "34de6523-1356-4164-88f5-e498b6a2d8f6")
+	)
+	(fp_line
+		(start 9.5 2.7)
+		(end -2 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "852cd09c-29bd-4809-81ae-ad23149ade0a")
+	)
+	(fp_line
+		(start -2 2.7)
+		(end -2 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fff88924-113f-4040-9e6a-e993f0b9b8a4")
+	)
+	(fp_poly
+		(pts
+			(xy 0 -1.53) (xy -0.35 -2.03) (xy 0.35 -2.03)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "57b46456-f41b-4a45-a289-8c47a619281e")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.2 1.75)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b63f6c98-2814-4cd9-8196-2abf23fb2114")
+	)
+	(pad "2" thru_hole oval
+		(at 1.5 0)
+		(size 1.2 1.75)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6cc63ed8-ab9d-40b9-8b51-0047dedbaad3")
+	)
+	(pad "3" thru_hole oval
+		(at 3 0)
+		(size 1.2 1.75)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f28abc22-2edb-4c0f-bdb4-d6681e095b7b")
+	)
+	(pad "4" thru_hole oval
+		(at 4.5 0)
+		(size 1.2 1.75)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5be7aece-e863-4167-bddc-a330aa6d4eeb")
+	)
+	(pad "5" thru_hole oval
+		(at 6 0)
+		(size 1.2 1.75)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "46a54b18-35d5-4295-b644-75fe96e702b7")
+	)
+	(pad "6" thru_hole oval
+		(at 7.5 0)
+		(size 1.2 1.75)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "71866f5e-6325-4fa5-9dbd-149592679a6f")
+	)
+	(model "${KIPRJMOD}/libs/jlc.3dshapes/JST_ZH_B6B-ZR_1x06_P1.50mm_Vertical.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

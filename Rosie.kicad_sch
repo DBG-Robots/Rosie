@@ -1,0 +1,341 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "da700c9c-23ea-464c-966c-888c9f23b866")
+	(paper "A4")
+	(title_block
+		(title "Rosie")
+		(date "2026-11-01")
+		(rev "0.1")
+	)
+	(lib_symbols)
+	(sheet
+		(at 135.89 24.13)
+		(size 26.67 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "26c48990-d7af-4085-aae8-04a49b282c94")
+		(property "Sheetname" "USB"
+			(at 135.89 23.4184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 135.89 57.7346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Rosie"
+				(path "/da700c9c-23ea-464c-966c-888c9f23b866"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 173.99 24.13)
+		(size 26.67 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8c2bdb27-cea7-4d6f-b7bf-7f9b5e23cf1f")
+		(property "Sheetname" "Motor Drivers"
+			(at 173.99 23.4184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor_drivers.kicad_sch"
+			(at 173.99 57.7346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Rosie"
+				(path "/da700c9c-23ea-464c-966c-888c9f23b866"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 59.69 24.13)
+		(size 26.67 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a9d745f9-448c-4aca-a183-882c6c2fb1a2")
+		(property "Sheetname" "Power Conversion"
+			(at 59.69 23.4184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_conversion.kicad_sch"
+			(at 59.69 57.7346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Rosie"
+				(path "/da700c9c-23ea-464c-966c-888c9f23b866"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 212.09 24.13)
+		(size 26.67 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e3d7a88f-6d81-4d52-a7da-d405877c14f4")
+		(property "Sheetname" "IO Peripherals"
+			(at 212.09 23.4184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io_peripherals.kicad_sch"
+			(at 212.09 57.7346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Rosie"
+				(path "/da700c9c-23ea-464c-966c-888c9f23b866"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 24.13)
+		(size 26.67 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f16e274c-5ef3-4f0d-a6e6-b0f198d89096")
+		(property "Sheetname" "Power Input"
+			(at 21.59 23.4184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_input.kicad_sch"
+			(at 21.59 57.7346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Rosie"
+				(path "/da700c9c-23ea-464c-966c-888c9f23b866"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 97.79 24.13)
+		(size 26.67 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "fb2ab52a-6548-44ff-9f77-0972344cd284")
+		(property "Sheetname" "MCU"
+			(at 97.79 23.4184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 97.79 57.7346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Rosie"
+				(path "/da700c9c-23ea-464c-966c-888c9f23b866"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 74.93)
+		(size 26.67 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f57dfa60-a462-4633-ad3e-2eb717945cd8")
+		(property "Sheetname" "Debug"
+			(at 21.59 74.2184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "debug.kicad_sch"
+			(at 21.59 108.535 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Rosie"
+				(path "/da700c9c-23ea-464c-966c-888c9f23b866"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

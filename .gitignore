@@ -1,0 +1,10 @@
+# KiCad
+*.lck
+*-backups/
+_autosave-*
+*.kicad_prl
+fp-info-cache
+*.bak
+*~
+# old exports
+production/DBGTinyBot.zip
